@@ -1,20 +1,19 @@
 .h_container {
-    width: 64em;
-    max-width: calc(100% - 4em);
-		margin: 0 auto;
+  width: 64em;
+  max-width: calc(100% - 4em);
+  margin: 0 auto;
 }
 
-
 .h_container .nav {
-    color: #636363;
-    width: 64em;
-    position: absolute;
-    max-width: calc(100% - 4em);
-    background-color: #f7f7f7;
-    border-top-left-radius: 0.25em;
-    border-top-right-radius: 0.25em;
-    cursor: default;
-    text-align: center;
+  color: #636363;
+  width: 64em;
+  position: absolute;
+  max-width: calc(100% - 4em);
+  background-color: #f7f7f7;
+  border-top-left-radius: 0.25em;
+  border-top-right-radius: 0.25em;
+  cursor: default;
+  text-align: center;
 }
 
 h1 {
@@ -28,8 +27,11 @@ h1 {
 }
 
 .h_container .main {
-	background-color: #ffffff;
-	color: #636363;
-	border-radius: 0.25em;
+  /* display: flex;
+  justify-content: center; */
+  background-color: #ffffff;
+  color: #f7f7f7;
+  border-radius: 0.25em;
   padding: 1em;
+  text-align: center;
 }

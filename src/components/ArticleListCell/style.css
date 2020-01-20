@@ -1,0 +1,66 @@
+.ac_container {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  border-bottom: solid 1px #dddddd;
+}
+
+.ac_container h2 {
+  color: black;
+  font-size: 10em;
+}
+
+.ac_container .content {
+  flex: 1;
+}
+
+.ac_container .summary {
+  margin: 0 0 2em 0;
+}
+
+.ac_container .content .title {
+  margin: 0 0 2em 0;
+}
+
+.ac_container .content h2 {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 0 0.7em 0;
+  text-decoration: underline;
+}
+
+.ac_container .info {
+  margin: 0 0 2em 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ac_container .info .tag {
+  display: flex;
+  flex-direction: row;
+  padding-right: 5px;
+  margin-right: 10px;
+  color: #636363;
+}
+
+.ac_container .info .tag .icon {
+  margin-right: 5px;
+  margin-top: 0.25em;
+}
+
+.ac_container .lastSpan {
+  border-radius: 8px;
+  border: solid 1px #d1b6b6;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 300;
+  height: 2.25em;
+  line-height: 1.75em;
+  min-width: 7.25em;
+  padding: 0 1.5em;
+  text-align: center;
+  text-decoration: blink; /*文字闪烁*/
+  white-space: nowrap; /*段落中的文本不进行换行*/
+}
